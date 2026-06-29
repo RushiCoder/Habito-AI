@@ -43,23 +43,6 @@ Build better habits, stay consistent, and visualize your progress with a modern 
 - ⚡ Fast Performance
 - 📱 Fully Responsive
 
-### 🛠️ Tech Stack :
-<br/>
-<b>Frontend</b>
-
-React.js
-Vite
-Tailwind CSS
-React Router
-Axios
-Backend
-Node.js
-Express.js
-MongoDB
-Mongoose
-JWT Authentication
-bcrypt
-
 <hr>
 
 ### 🛠️ Tech Stack :
