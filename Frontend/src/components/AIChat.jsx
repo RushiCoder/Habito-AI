@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef } from "react";
-import { MessageCircle, Send, X, Sparkles, RefreshCw } from "lucide-react";
+import { MessageCircle, Send, X, RefreshCw } from "lucide-react";
 import api from "../api/axios.js";
 import Markdown from "./Markdown.jsx";
+import logo from "../assets/favicon.png";
 
 const SAMPLES = [
   "Which day of the week am I most consistent?",
@@ -62,10 +63,14 @@ export default function AIChat() {
       </button>
 
       {open && (
-        <div className="fixed bottom-36 md:bottom-24 right-6 z-40 w-[min(92vw,380px)] h-[min(70vh,520px)] glass-strong rounded-2xl flex flex-col animate-slide-up shadow-2xl overflow-hidden">
+        <div className="fixed bottom-36 md:bottom-24 right-6 z-40 w-[min(92vw,380px)] h-[min(70vh,520px)] bg-zinc-900 rounded-2xl flex flex-col animate-slide-up shadow-2xl overflow-hidden">
           <div className="px-4 py-3 border-b divider flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-500 to-brand-700 text-white flex items-center justify-center shadow-md shadow-brand-500/30">
-              <Sparkles size={14} />
+            <div className="flex items-center justify-center">
+              <img
+                src={logo}
+                alt="Habito AI"
+                className="w-10 h-10 object-contain"
+              />
             </div>
             <div>
               <div className="text-sm font-medium">Habit Analysis</div>
@@ -91,7 +96,11 @@ export default function AIChat() {
                       : "glass rounded-bl-md"
                   }`}
                 >
-                  {m.role === "user" ? m.content : <Markdown>{m.content}</Markdown>}
+                  {m.role === "user" ? (
+                    m.content
+                  ) : (
+                    <Markdown>{m.content}</Markdown>
+                  )}
                 </div>
               </div>
             ))}

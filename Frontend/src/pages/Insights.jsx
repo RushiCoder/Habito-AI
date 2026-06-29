@@ -30,6 +30,7 @@ import LoadingSpinner from "../components/LoadingSpinner.jsx";
 import Markdown from "../components/Markdown.jsx";
 import { weekKeysFor, streakFromKeys } from "../utils/dateHelpers.js";
 import { useTheme } from "../context/ThemeContext.jsx";
+import logo from "../assets/favicon.png";
 
 const PIE_COLORS = [
   "#f59e0b",
@@ -274,9 +275,13 @@ export default function Insights() {
         />
         <div className="relative">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-400 to-brand-600 text-white flex items-center justify-center shadow-lg shadow-brand-500/30">
-              <Sparkles size={18} />
-            </div>
+             <div className="flex items-center justify-center">
+                       <img
+                         src={logo}
+                         alt="Habito AI"
+                         className="w-10 h-10 object-contain"
+                       />
+                     </div>
             <div className="flex-1">
               <div className="text-sm font-semibold">AI Weekly Report</div>
               <div className="text-xs text-muted">

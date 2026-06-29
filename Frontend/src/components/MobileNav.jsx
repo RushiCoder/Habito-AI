@@ -21,12 +21,12 @@ export default function MobileNav() {
       <div className="md:hidden sticky top-0 z-20 glass border-b divider px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="flex items-center justify-center">
-                      <img
-                        src={logo}
-                        alt="Habito AI"
-                        className="w-10 h-10 object-contain"
-                      />
-                      </div>
+            <img
+              src={logo}
+              alt="Habito AI"
+              className="w-10 h-10 object-contain"
+            />
+          </div>
           <div className="font-semibold">Habito AI</div>
         </div>
         <div className="flex items-center gap-2">
@@ -60,9 +60,8 @@ export default function MobileNav() {
             key={to}
             to={to}
             className={({ isActive }) =>
-              `flex flex-col items-center gap-0.5 px-4 py-1.5 rounded-lg text-xs ${isActive
-                ? "text-brand-700 dark:text-brand-300"
-                : "text-faint"
+              `flex flex-col items-center gap-0.5 px-4 py-1.5 rounded-lg text-xs ${
+                isActive ? "text-brand-700 dark:text-brand-300" : "text-faint"
               }`
             }
           >
