@@ -29,17 +29,19 @@ Build better habits, stay consistent, and visualize your progress with a modern 
 <hr>
 
 ### ✨ Features :
+
 <br/>
-🔐 Secure User Authentication (JWT)
-📊 Interactive Dashboard
-✅ Daily Habit Tracking
-📅 Weekly Progress Overview
-📈 Statistics & Analytics
-💡 AI-Powered Insights
-🎨 Modern Responsive UI
-🌙 Clean Dashboard Design
-⚡ Fast Performance
-📱 Fully Responsive
+
+- 🔐 Secure User Authentication (JWT)
+- 📊 Interactive Dashboard
+- ✅ Daily Habit Tracking
+- 📅 Weekly Progress Overview
+- 📈 Statistics & Analytics
+- 💡 AI-Powered Insights
+- 🎨 Modern Responsive UI
+- 🌙 Clean Dashboard Design
+- ⚡ Fast Performance
+- 📱 Fully Responsive
 
 ### 🛠️ Tech Stack :
 <br/>
@@ -58,15 +60,51 @@ Mongoose
 JWT Authentication
 bcrypt
 
+<hr>
+
+### 🛠️ Tech Stack :
+
 <br/>
-<b>Backend</b>
 
-Node.js
-Express.js
-MongoDB
-Mongoose
-JWT Authentication
-bcrypt
+#### 🎨 Frontend
 
-⭐ Support
-If you like this project, consider giving it a ⭐ on GitHub.
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,js" />
+</p>
+
+- React.js
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Axios
+
+<br/>
+
+#### ⚙️ Backend
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" />
+</p>
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- bcrypt.js
+
+<hr>
+
+### 👨‍💻 Author :
+
+<br/>
+
+**Rushikesh**
+
+<hr>
+
+### ⭐ Support :
+
+<br/>
+
+If you found this project helpful, please consider giving it a **⭐ Star** on GitHub. It helps support the project and motivates future improvements.
